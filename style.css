@@ -237,7 +237,7 @@ color: white;
 
 /* mobile device layout  */
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 393px) {
 
 nav{margin-left: 40px;}
 
@@ -248,9 +248,9 @@ a.nav-link.text-light.active.solds,  a.nav-link.text-light.active.add {
   margin-left: -10px;
   }
 .sliders{margin-left: 20px !important;}
-
-.alert-information .row .col-lg-6 h1{font-size: 25px;}
-
+.alert-information{margin: 50px 60px;}
+.alert-information .row .col-lg-6 h1{color: #c40300;font-weight: 700;font-size:22px;}
+.all-add{ margin-left:-20px !important ;}
 .img-3{margin-left: -30px;margin-top: 10px;}
 
 .catee{justify-content: center;}
@@ -260,6 +260,7 @@ a.nav-link.text-light.active.solds,  a.nav-link.text-light.active.add {
 footer{height: 100%;}
 
 .fot-1{margin-top: 20px;} 
+
 
 }
 
